@@ -5,10 +5,11 @@
 A complete shopping cart application built with React, Node.js, Express, and MongoDB demonstrating e-commerce fundamentals.
 
 ## 📸 Screenshots
-
-[Add screenshots here showing:]
+![img1](./img/img1.png)
 - Product grid with "Add to Cart" buttons
+![img2](./img/img2.png)
 - Shopping cart with items and quantity controls
+![img3](./img/img3.png)
 - Checkout modal with receipt
 - Order history page
 
