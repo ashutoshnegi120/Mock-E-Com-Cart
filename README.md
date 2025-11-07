@@ -15,7 +15,7 @@ A complete shopping cart application built with React, Node.js, Express, and Mon
 
 ## 🎥 Demo Video
 
-[Demo Link]: [Add your Loom/YouTube unlisted video link here]
+[E-commerce Card Application Overview 🛒 - Watch Video](https://loom.com/share/4a4c7cf3837d40e082710cab4de6a90c)
 
 ## ✨ Features Implemented
 
