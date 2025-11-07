@@ -54,7 +54,7 @@ export default function Cart() {
                     data.receipt.timestamp
                 ).toLocaleString()}`
             );
-            fetchCart(); // refresh (cart will be empty after checkout)
+            fetchCart(); 
         } catch (err) {
             console.error("Checkout Error:", err);
             alert("❌ Checkout failed");

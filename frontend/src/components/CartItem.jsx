@@ -6,7 +6,7 @@ export default function CartItem({ item, onRemove, onUpdateQuantity }) {
             <div className="flex flex-col">
                 <span className="font-semibold text-gray-800">{item.name}</span>
                 <span className="text-sm text-gray-500">
-                    ₹{item.price.toFixed(2)} × {item.quantity}
+                    ${item.price.toFixed(2)} × {item.quantity}
                 </span>
             </div>
 
@@ -14,7 +14,7 @@ export default function CartItem({ item, onRemove, onUpdateQuantity }) {
             <div className="flex items-center space-x-4">
                 {/* Total for this item */}
                 <p className="text-lg font-semibold text-primary">
-                    ₹{(item.price * item.quantity).toFixed(2)}
+                    ${(item.price * item.quantity).toFixed(2)}
                 </p>
 
                 {/* Quantity Control */}

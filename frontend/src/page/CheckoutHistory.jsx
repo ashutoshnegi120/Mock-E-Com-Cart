@@ -79,7 +79,7 @@ export default function CheckoutHistory() {
                   Total
                 </span>
                                     <span className="text-xl font-bold text-primary">
-                  ₹{entry.totalPrice ?? entry.totalprice ?? entry.TotalPrice ?? 0}
+                  ${entry.totalPrice ?? entry.totalprice ?? entry.TotalPrice ?? 0}
                 </span>
                                 </div>
 
@@ -146,7 +146,7 @@ export default function CheckoutHistory() {
                                     >
                                         <span className="truncate">{prod.name}</span>
                                         <span>
-                    {prod.quantity} × ₹{prod.price}
+                    {prod.quantity} × ${prod.price}
                   </span>
                                     </div>
                                 ))
@@ -161,7 +161,7 @@ export default function CheckoutHistory() {
                             <h3 className="text-lg font-semibold text-gray-800">
                                 Total:{" "}
                                 <span className="text-green-600 font-bold">
-                ₹
+                $
                                     {selectedBill.totalPrice ??
                                         selectedBill.totalprice ??
                                         selectedBill.TotalPrice ??
